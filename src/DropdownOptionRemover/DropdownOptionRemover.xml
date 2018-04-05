@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="DropdownOptionRemover.widget.DropdownOptionRemover" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>DropdownOptionRemover</name>
+    <description>This widget can remove options from a specific dropdown element.</description>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA0ElEQVQ4T62TzwnCMBjF35fiGm2KGcKjO2ihnUPEixuIglcXUMEFXECX6KF1AQeo5okXwf6NxVwTft8vLy8y1DoWYo8ei4JEPgBK1MgQzgCMyvtfgDTPpAlggvAEcEJwSeudlbIrAOOfAQDuEOxALN7D/nuFHhl+G3RmQD7SWxaXB31eIc0zZbQ+Vg4Aa1LmcAQcagAbV4AYP6x0QdniYr3B1s0g0M+qASNCJS6A9iI5ZRBoW2MwdTYwfjgtA5Qtrk4ZoOszEXlrDzqbSBzrAC+bvLVzAZiOQQAAAABJRU5ErkJggg==</icon>
+
+    <properties>
+        <property key="nameDropdownWidget" type="string" required="true">
+            <caption>Name of Dropdown widget</caption>
+            <category>Setup</category>
+            <description></description>
+        </property>
+        <property key="optionsToRemove" type="string" required="true">
+            <caption>Options to remove</caption>
+            <category>Setup</category>
+            <description>Notation: 'option-key;option-key;option-key'</description>
+        </property>
+    </properties>
+</widget>
